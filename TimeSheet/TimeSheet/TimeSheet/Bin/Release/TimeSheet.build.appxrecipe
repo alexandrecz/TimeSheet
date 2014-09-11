@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PC-199</Machine>
+    <WindowsUser>Alexandre</WindowsUser>
+    <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>625c8526-6fec-4c83-9491-1bbf1819b822</PackageIdentityName>
+    <IntermediateOutputPath>D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\obj\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Bin\Release\TimeSheet.dll">
+      <PackagePath>TimeSheet.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PortF\WP\TimeSheet\TimeSheet\packages\SilverlightToolkitWP.4.2012.6.25\lib\sl4-windowsphone71\Microsoft.Phone.Controls.Toolkit.dll">
+      <PackagePath>Microsoft.Phone.Controls.Toolkit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Phone\v8.1\Libraries\Microsoft.Phone.Controls.dll">
+      <PackagePath>Microsoft.Phone.Controls.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Assets\apppng.png">
+      <PackagePath>Assets\apppng.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Assets\Tiles\FlipCycleTileLarge.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Assets\Tiles\FlipCycleTileMedium.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Assets\Tiles\FlipCycleTileSmall.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Assets\Tiles\IconicTileMediumLarge.png">
+      <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Assets\Tiles\IconicTileSmall.png">
+      <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Toolkit.Content\ApplicationBar.Cancel.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Cancel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Toolkit.Content\ApplicationBar.Check.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Check.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Toolkit.Content\ApplicationBar.Delete.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Delete.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Toolkit.Content\ApplicationBar.Select.png">
+      <PackagePath>Toolkit.Content\ApplicationBar.Select.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Toolkit.Content\invoice.png">
+      <PackagePath>Toolkit.Content\invoice.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Toolkit.Content\pause.png">
+      <PackagePath>Toolkit.Content\pause.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Toolkit.Content\play.png">
+      <PackagePath>Toolkit.Content\play.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Toolkit.Content\save.png">
+      <PackagePath>Toolkit.Content\save.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Toolkit.Content\share.png">
+      <PackagePath>Toolkit.Content\share.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Toolkit.Content\stop.png">
+      <PackagePath>Toolkit.Content\stop.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\SplashScreenImage.jpg">
+      <PackagePath>SplashScreenImage.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\VoiceCommandDefinition.xml">
+      <PackagePath>VoiceCommandDefinition.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

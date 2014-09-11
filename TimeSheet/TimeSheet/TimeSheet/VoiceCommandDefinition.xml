@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.1">
+  <CommandSet xml:lang="en-us" Name="englishCommands">
+    <CommandPrefix>TimeSheet</CommandPrefix>
+    <Example> Add a new task </Example>
+
+    <Command Name="TSAdd">
+      <Example> Add a new task </Example>
+      <ListenFor> [Add] {naturalLanguage} [Task]</ListenFor>
+      <Feedback> Ok, adding a new task... </Feedback>
+      <Navigate Target="/MainPage.xaml" />
+    </Command>
+
+    <Command Name="TSCreate">
+      <Example> Create a task </Example>
+      <ListenFor> [Add] {naturalLanguageC} [Task]</ListenFor>
+      <Feedback> Ok, creating a new task... </Feedback>
+      <Navigate Target="/MainPage.xaml" />
+    </Command>
+
+
+
+    <Command Name="TSShow">
+      <Example> Show my tasks...' </Example>
+      <ListenFor> [Show] {shownaturalLanguage} {myCommand} </ListenFor>
+      <Feedback> Let's check it out your {myCommand}... </Feedback>
+      <Navigate Target="/MainPage.xaml" />
+    </Command>
+
+    <PhraseList Label="myCommand">
+      <Item> tasks </Item>
+    </PhraseList>
+
+    <PhraseTopic Label="shownaturalLanguage" Scenario="Natural Language">
+      <Subject> show my tasks </Subject>
+    </PhraseTopic>
+
+    <PhraseTopic Label="naturalLanguage" Scenario="Natural Language">
+      <Subject> add a new task </Subject>
+    </PhraseTopic>
+
+    <PhraseTopic Label="naturalLanguageC" Scenario="Natural Language">
+      <Subject> create a new task </Subject>
+    </PhraseTopic>
+  </CommandSet>
+</VoiceCommands>

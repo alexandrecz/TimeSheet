@@ -1,0 +1,44 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="TimeSheet.Views.TaskView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True" shell:SystemTray.Opacity="0.2">
+
+    <Grid x:Name="LayoutRoot" Background="{StaticResource PhoneInverseInactiveBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <StackPanel Grid.Row="0" Margin="12,29,0,28">
+            <TextBlock Text="{Binding Path=LocalizedResources.ApplicationTitleUpper, Source={StaticResource LocalizedStrings}}" Style="{StaticResource PhoneTextNormalStyle}" Foreground="{StaticResource PhoneSemitransparentBrush }" FontSize="24"/>
+            <TextBlock Text="{Binding Path=LocalizedResources.TaskHeader, Source={StaticResource LocalizedStrings}}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" Foreground="{StaticResource PhoneSemitransparentBrush }"/>
+        </StackPanel>
+
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="0,-10,12,10">
+            <Grid Margin="16,0,16,50">
+
+                <Grid Grid.Row="1" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch">
+
+                    <TextBlock Text="{Binding Path=LocalizedResources.DescBlock, Source={StaticResource LocalizedStrings}}" Margin="14,42,0,0" VerticalAlignment="Top" Style="{StaticResource PhoneTextNormalStyle}" Foreground="{StaticResource PhoneSemitransparentBrush}"/>
+                    <TextBox Text="{Binding MyTaskModel.Description,Mode=TwoWay}" Height="110" Margin="2,62,2,0" VerticalAlignment="Top" TextWrapping="Wrap"/>
+                    <TextBlock Text="{Binding Path=LocalizedResources.ValueBlock, Source={StaticResource LocalizedStrings}}" Margin="14,202,0,0" VerticalAlignment="Top" Style="{StaticResource PhoneTextNormalStyle}" Foreground="{StaticResource PhoneSemitransparentBrush}"/>
+                    <TextBox InputScope="CurrencyAmount" TextChanged="TextBox_TextChanged" Text="{Binding MyTaskModel.ValueBy}" Height="80" Margin="2,222,2,0" VerticalAlignment="Top" />
+                    <TextBlock Text="{Binding Path=LocalizedResources.DurationBlock, Source={StaticResource LocalizedStrings}}" Margin="14,332,0,0" VerticalAlignment="Top" Style="{StaticResource PhoneTextNormalStyle}" Foreground="{StaticResource PhoneSemitransparentBrush}"/>
+                    <TextBlock Text="{Binding MyTaskModel.Duration}" Margin="140,332,0,0" VerticalAlignment="Top" Style="{StaticResource PhoneTextNormalStyle}" Foreground="{StaticResource PhoneSemitransparentBrush}"/>
+
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

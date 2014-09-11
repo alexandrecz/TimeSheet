@@ -1,0 +1,29 @@
+﻿<xapCache source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Bin\Debug\TimeSheet_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2014-07-24 9:21:48 AM">
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="2014-07-24 9:21:47 AM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\obj\Debug\TimeSheet.dll" archivePath="TimeSheet.dll" lastWriteTime="2014-07-24 9:21:47 AM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="2014-07-22 5:22:27 PM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="2014-07-22 5:22:27 PM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="2014-07-22 5:27:28 PM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="2014-07-22 5:27:28 PM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="2014-07-22 5:27:28 PM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="2014-07-22 5:27:28 PM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="2014-07-22 5:26:14 PM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="2014-07-22 5:26:14 PM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="2014-07-22 5:26:14 PM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="2014-07-22 5:26:14 PM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Toolkit.Content\invoice.png" archivePath="Toolkit.Content\invoice.png" lastWriteTime="2014-07-22 5:26:14 PM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Toolkit.Content\pause.png" archivePath="Toolkit.Content\pause.png" lastWriteTime="2014-07-22 5:26:14 PM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Toolkit.Content\play.png" archivePath="Toolkit.Content\play.png" lastWriteTime="2014-07-22 5:26:14 PM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Toolkit.Content\save.png" archivePath="Toolkit.Content\save.png" lastWriteTime="2014-07-22 5:26:14 PM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Toolkit.Content\share.png" archivePath="Toolkit.Content\share.png" lastWriteTime="2014-07-22 5:26:14 PM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Toolkit.Content\stop.png" archivePath="Toolkit.Content\stop.png" lastWriteTime="2014-07-22 5:26:14 PM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\VoiceCommandDefinition.xml" archivePath="VoiceCommandDefinition.xml" lastWriteTime="2014-07-22 5:24:15 PM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2014-07-23 6:47:21 PM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="2014-07-22 5:27:28 PM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\packages\SilverlightToolkitWP.4.2012.6.25\lib\sl4-windowsphone71\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="2014-07-22 5:25:10 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.1\Libraries\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="2014-04-18 4:36:48 AM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Assets\apppng.png" archivePath="Assets\apppng.png" lastWriteTime="2014-07-22 5:26:50 PM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2014-07-24 9:21:48 AM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="2014-07-24 9:21:48 AM" />
+  <file source="D:\PortF\WP\TimeSheet\TimeSheet\TimeSheet\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="2014-07-24 9:21:47 AM" />
+</xapCache>
